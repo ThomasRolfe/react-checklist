@@ -35,6 +35,7 @@ Use the server.js template file in the root directory and point node to this fil
 Setup git webhook for the plesk subscription & add the following additional actions for auto build:
 
 > PATH=/opt/plesk/node/12/bin:$PATH; npm install && npm run build &> npm.log
+
 > touch tmp/restart.txt
 
 \*Assuming the paths remain the same for the node installation. Adjust path and node version if necessary.
