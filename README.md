@@ -43,3 +43,5 @@ Setup git webhook for the plesk subscription & add the following additional acti
 In Plesk > web hosting access > system user, set the following the ensure node can run builds and installs successfully.
 
 > Access to server over ssh - /bin/bash
+
+Add .npmrc file to httpdocs folder for NPM compatibility [NPMRC file](https://github.com/ThomasRolfe/npm-fix)
