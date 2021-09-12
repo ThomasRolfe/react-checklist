@@ -32,6 +32,10 @@ Hosting on plesk, requires node to be active.
 
 Use the server.js template file in the root directory and point node to this file to serve the app. [Server Repo](https://github.com/ThomasRolfe/react-server)
 
+Set Application root to /httpdocs
+
+Set Document root to /httpdocs/build
+
 Setup git webhook for the plesk subscription & add the following additional actions for auto build:
 
 > PATH=/opt/plesk/node/12/bin:$PATH; npm install && npm run build &> npm.log
